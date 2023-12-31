@@ -9,22 +9,14 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Niahahahah😈!!<br> you've just sealed your fate!<br> Brace yourself for another year<br> of my weirdness, marjjjness,<br>and baarcha bous w 3adh w taanig w 7esss";
   gif.src = "https://media3.giphy.com/media/maPtLNbAsA0pRkozT9/giphy.gif?cid=ecf05e47oaapvfc34alqg0ip68ot9c3ge28vrlo1wlw3ek3n&ep=v1_gifs_related&rid=giphy.gif&ct=g";
 
+
   // Adding the new text dynamically
-  const welcomeText1 = document.createElement('p');  // Change the variable name
-  welcomeText1.className = 'welcome-text';
-  welcomeText1.innerHTML = "Welcome to the chaos haboubi 😘";
-
-  // Insert the new paragraph element before the buttons
-  const btnGroup = document.querySelector('.btn-group');
-  btnGroup.insertBefore(welcomeText1, btnGroup.firstChild);
-
-  // Adding another new text dynamically
-  const welcomeText2 = document.createElement('p');  // Change the variable name
-  welcomeText2.className = 'welcome-text';
-  welcomeText2.innerHTML = "Love youuu 💖";
+  const welcomeText = document.createElement('p');
+  welcomeText.className = 'welcome-text';
+  welcomeText.innerHTML = "Welcome to the chaos haboubi 😘💖";
 
   // Append the new paragraph element after the existing elements
-  wrapper.appendChild(welcomeText2); // Use appendChild instead of insertBefore
+  wrapper.appendChild(welcomeText); // Use appendChild instead of insertBefore
 });
 
 noBtn.addEventListener("mouseover", () => {
