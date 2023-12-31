@@ -20,13 +20,6 @@ yesBtn.addEventListener("click", () => {
     btnGroup.insertBefore(welcomeText, btnGroup.firstChild);
 
 
-  // Adding the new text dynamically
-  const welcomeText = document.createElement('p');
-  welcomeText.className = 'welcome-text';
-  welcomeText.innerHTML = "Love youuu 💖";
-
-  // Append the new paragraph element after the existing elements
-  wrapper.appendChild(welcomeText); // Use appendChild instead of insertBefore
 });
 
 noBtn.addEventListener("mouseover", () => {
