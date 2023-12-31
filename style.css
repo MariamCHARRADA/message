@@ -19,15 +19,9 @@ body {
     width: 80%;
 }
 
-h2 {
+h2, .welcome-text {
     text-align: center;
     font-size: 1.5em;
-    color: #e94d58;
-    margin: 15px 0;
-}
-.welcome-text {
-    text-align: center; /* Center-align the welcome text */
-    font-size: 1.2em;
     color: #e94d58;
     margin: 15px 0;
 }
