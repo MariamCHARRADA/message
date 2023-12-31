@@ -22,8 +22,6 @@ yesBtn.addEventListener("click", () => {
   additionalText.className = 'additional-text';
   additionalText.innerHTML = "Welcome to the chaos haboubi 😘";
 
-  // Append the new paragraph element after the existing elements
-  wrapper.appendChild(additionalText);
 });
 
 noBtn.addEventListener("mouseover", () => {
