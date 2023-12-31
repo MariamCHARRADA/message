@@ -10,10 +10,20 @@ yesBtn.addEventListener("click", () => {
   gif.src = "https://media3.giphy.com/media/maPtLNbAsA0pRkozT9/giphy.gif?cid=ecf05e47oaapvfc34alqg0ip68ot9c3ge28vrlo1wlw3ek3n&ep=v1_gifs_related&rid=giphy.gif&ct=g";
 
 
+    // Adding the new text dynamically
+    const welcomeText = document.createElement('p');
+    welcomeText.className = 'welcome-text';
+    welcomeText.innerHTML = "Welcome to the chaos haboubi 😘";
+  
+    // Insert the new paragraph element before the buttons
+    const btnGroup = document.querySelector('.btn-group');
+    btnGroup.insertBefore(welcomeText, btnGroup.firstChild);
+
+
   // Adding the new text dynamically
   const welcomeText = document.createElement('p');
   welcomeText.className = 'welcome-text';
-  welcomeText.innerHTML = "Welcome to the chaos haboubi 😘💖";
+  welcomeText.innerHTML = "Love youuu 💖";
 
   // Append the new paragraph element after the existing elements
   wrapper.appendChild(welcomeText); // Use appendChild instead of insertBefore
