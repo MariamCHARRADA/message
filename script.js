@@ -13,7 +13,7 @@ yesBtn.addEventListener("click", () => {
   // Adding the new text dynamically under the question
   const additionalText = document.createElement('p');
   additionalText.className = 'additional-text';
-  additionalText.innerHTML = "Brace yourself for another year<br> of my weirdness, marjjjness, and<br>baarcha bous w 3adh w taanig w 7ess! <br> Welcome to the chaos haboubii 😘<br> Kol aaam wenty l hoob 😍 <br> weni l klab 😝 ahaha ";
+  additionalText.innerHTML = "Brace yourself for another year<br> of my weirdness, marjjjness, and<br>baarcha bous w 3adh w taanig w 7ess! <br> <br> Welcome to the chaos haboubii 😘<br> <br>Kol aaam wenty l hoob 😍 <br> weni l klab 😝 <br> ahaha ";
 
   wrapper.appendChild(additionalText);
 });
