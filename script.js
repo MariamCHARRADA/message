@@ -6,16 +6,16 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   // Existing code to change question and gif
-  question.innerHTML = "Niahahahah😈!!<br> you've just sealed your fate!<br> Brace yourself for another year<br> of my weirdness, marjjjness, and<br>baarcha bous w 3adh w taanig w 7ess";
+  question.innerHTML = "Niahahahah 😈<br> you've just sealed your fate!<br> Brace yourself for another year<br> of my weirdness, marjjjness, and<br>baarcha bous w 3adh w taanig w 7ess";
   gif.src = "https://media3.giphy.com/media/maPtLNbAsA0pRkozT9/giphy.gif?cid=ecf05e47oaapvfc34alqg0ip68ot9c3ge28vrlo1wlw3ek3n&ep=v1_gifs_related&rid=giphy.gif&ct=g";
 
 
   // Adding the new text dynamically under the question
   const additionalText = document.createElement('p');
   additionalText.className = 'additional-text';
-  additionalText.innerHTML = "Welcome to the chaos haboubi 😘";
+  additionalText.innerHTML = "Welcome to the chaos haboubii 😘<br> Kol aaam wenty l hob 😍 <br> weni l klab 😝 ahaha ";
 
-  wrapper.appendChild(welcomeText);
+  wrapper.appendChild(additionalText);
 });
 
 noBtn.addEventListener("mouseover", () => {
