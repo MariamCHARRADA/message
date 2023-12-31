@@ -9,17 +9,21 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Niahahahah😈!!<br> you've just sealed your fate!<br> Brace yourself for another year<br> of my weirdness, marjjjness, and<br>baarcha bous w 3adh w taanig w 7ess";
   gif.src = "https://media3.giphy.com/media/maPtLNbAsA0pRkozT9/giphy.gif?cid=ecf05e47oaapvfc34alqg0ip68ot9c3ge28vrlo1wlw3ek3n&ep=v1_gifs_related&rid=giphy.gif&ct=g";
 
-  const additionalText = document.createElement('p');
-  additionalText.className = 'additional-text';
-  additionalText.innerHTML = "Welcome to the chaos haboubi 😘";
-
   // Adding the new text dynamically
   const welcomeText = document.createElement('p');
   welcomeText.className = 'welcome-text';
   welcomeText.innerHTML = "nhebek habouba kbira";
 
   // Append the new paragraph element after the existing elements
-  wrapper.appendChild(welcomeText); // Use appendChild instead of insertBefore
+  wrapper.appendChild(welcomeText);
+
+  // Adding the new text dynamically under the question
+  const additionalText = document.createElement('p');
+  additionalText.className = 'additional-text';
+  additionalText.innerHTML = "Welcome to the chaos haboubi 😘";
+
+  // Append the new paragraph element after the existing elements
+  wrapper.appendChild(additionalText);
 });
 
 noBtn.addEventListener("mouseover", () => {
